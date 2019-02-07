@@ -83,3 +83,17 @@ Started GET "/assets/turbolinks.self-2db6ec539b9190f75e1d477b305df53d12904d5cafd
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 71.34.107.53 at 2019-02-07 01:36:37 +0000
+
+
+Started GET "/students/2" for 71.34.107.53 at 2019-02-07 01:41:05 +0000
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  Rendered students/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students/1" for 71.34.107.53 at 2019-02-07 01:41:15 +0000
+Processing by StudentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendered students/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms)
